@@ -1,3 +1,62 @@
 body {
   background-color: bisque;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 100%;
+}
+div[data-wr] {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.card {
+  width: 70%;
+  height: 400px;
+  margin: 20px;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.card-body {
+  margin-bottom: 20px;
+}
+.card-body h2 {
+  margin-bottom: 20px;
+}
+.card-body p {
+  margin-bottom: 30px;
+}
+.card_text {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.button {
+  font-family: "Raleway", sans—serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #00a2ff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+  padding: 15px;
+}
+.button:hover {
+  background-color: #92f804;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+}
+.button {
+  transition: background-color 0.3s ease-in;
 }
