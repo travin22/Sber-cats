@@ -24,6 +24,74 @@
     <div data-modalWr class="modal hidden">
       <div data-modalContent class="modal_content"></div>
     </div>
+    <template id="createCatForm">
+      <h3 class="text-center mb-3">Добавление нового кота</h3>
+        <form name="createCatForm">
+          <div class="mb-2">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Введи имя"
+              required
+            />
+          </div>
+          <div class="mb-2">
+            <input
+              type="number"
+              name="id"
+              class="form-control"
+              placeholder="Введи id"
+              required
+            />
+          </div>
+          <div class="mb-2">
+            <input
+              type="number"
+              name="age"
+              class="form-control"
+              placeholder="Введи возраст"
+            />
+          <div class="mb-2">
+            <input
+              type="text"
+              name="description"
+              class="form-control"
+              placeholder="Введи описание"
+            />
+          </div>
+          <div class="mb-2">
+            <input
+              type="text"
+              name="image"
+              class="form-control"
+              placeholder="Image url"
+            />
+          </div>
+          <div class="mb-2">
+            <label for="volume" class="form-label">Рейтинг кота</label>
+            <input
+              type="range"
+              name="rate"
+              id="volume"
+              min="1"
+              max="10"
+            />
+          </div>
+          <div class="mb-2 form-check">
+            <input
+              type="checkbox"
+              name="favorite"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Like</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Добавить</button>
+        </form>`;
+    </template>
     <script src="index.js"></script>
   </body>
 </html>
